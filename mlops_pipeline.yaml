@@ -24,7 +24,7 @@ jobs:
               uses: actions/checkout@v2
               run: python3 preprocess_data.py
 
-              - name: Train ML Model
+            - name: Train ML Model
               id: train_model
               uses: actions/checkout@v2
               run: python3 train_model.py
